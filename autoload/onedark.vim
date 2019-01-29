@@ -3,13 +3,19 @@
 let s:overrides = get(g:, "onedark_color_overrides", {})
 
 let s:colors = {
-      \ "red": get(s:overrides, "red", { "gui": "#E06C75", "cterm": "204", "cterm16": "1" }),
+      \ "red": get(s:overrides, "red", { "gui": "#FF484C", "cterm": "204", "cterm16": "1" }),
       \ "dark_red": get(s:overrides, "dark_red", { "gui": "#BE5046", "cterm": "196", "cterm16": "9" }),
-      \ "green": get(s:overrides, "green", { "gui": "#98C379", "cterm": "114", "cterm16": "2" }),
+      \ "green": get(s:overrides, "green", { "gui": "#00D062", "cterm": "114", "cterm16": "2" }),
+      \ "d_green": get(s:overrides, "d_green", { "gui": "#75FF97", "cterm": "114", "cterm16": "2" }),
       \ "yellow": get(s:overrides, "yellow", { "gui": "#E5C07B", "cterm": "180", "cterm16": "3" }),
       \ "dark_yellow": get(s:overrides, "dark_yellow", { "gui": "#D19A66", "cterm": "173", "cterm16": "11" }),
-      \ "blue": get(s:overrides, "blue", { "gui": "#61AFEF", "cterm": "39", "cterm16": "4" }),
-      \ "purple": get(s:overrides, "purple", { "gui": "#C678DD", "cterm": "170", "cterm16": "5" }),
+      \ "blue": get(s:overrides, "blue", { "gui": "#00B2FB", "cterm": "39", "cterm16": "4" }),
+      \ "dark_blue": get(s:overrides, "dark_blue", { "gui": "#4081F9", "cterm": "39", "cterm16": "4" }),
+      \ "violet": get(s:overrides, "violet", { "gui": "#8B89FA", "cterm": "39", "cterm16": "4" }),
+      \ "d_macro": get(s:overrides, "d_macro", { "gui": "#DF54EA", "cterm": "39", "cterm16": "4" }),
+      \ "types": get(s:overrides, "types", { "gui": "#00B2FB", "cterm": "39", "cterm16": "4" }),
+      \ "pfuns": get(s:overrides, "pfuns", { "gui": "#FB8D61", "cterm": "39", "cterm16": "4" }),
+      \ "purple": get(s:overrides, "purple", { "gui": "#F23DA3", "cterm": "170", "cterm16": "5" }),
       \ "cyan": get(s:overrides, "cyan", { "gui": "#56B6C2", "cterm": "38", "cterm16": "6" }),
       \ "white": get(s:overrides, "white", { "gui": "#ABB2BF", "cterm": "145", "cterm16": "7" }),
       \ "black": get(s:overrides, "black", { "gui": "#282C34", "cterm": "235", "cterm16": "0" }),
